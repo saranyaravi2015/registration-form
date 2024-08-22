@@ -1,0 +1,58 @@
+*{
+    box-sizing: content-box;
+    margin:0;
+    padding:0;
+}
+.container{
+    margin:10em auto;
+    max-width: 30em;
+    border:1px solid gray;
+    background-color:cadetblue;
+}
+h1,h5{
+    padding: 1em;
+    text-align: center;
+}
+h5{
+    font-weight: lighter;
+}
+header fieldset,footer fieldset{
+    padding-left: 3em;
+    border-top:1px solid gray;
+    
+}
+main fieldset{
+    margin:1em auto;
+}
+header fieldset {
+    padding:.5em;
+    margin-left:3em;
+    margin-right: 2em;
+}
+fieldset #company,fieldset #female{
+    margin-left:6em;
+}
+main input{
+    line-height:1em;
+    width:20em;
+    padding:.5em;
+    margin: 1em 5em 1em 5em;
+
+
+}
+footer fieldset{
+    border-top:1px solid gray;
+    padding-top: 1em;
+}
+button{
+
+    margin: 1em 1em 1em 12em;
+    width: 100px;
+    padding: .5em;
+    border-radius: 5px;
+    border:none;
+    background-color: coral;
+}
+button:hover{
+    background-color: aquamarine;
+}
